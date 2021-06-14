@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #4CAF50;
+    height: 10rem;
+    padding-left: 1rem;
+}
+/* Start main-section  */
+.main-section{
+    height: 20rem;
+    background-color: aquamarine;
+    display: flex;
+    padding-left: 1rem;
+}
+h1 {
+    padding-top: 2rem;
+}
+.main-container p{
+    padding-top: 2rem;
+}
+.sub-section {
+
+}
+h2 {
+    padding-top: 2rem;
+}
+h5 {
+padding-top: 2rem;
+}
+p {
+padding-top: 2rem;
+}
+/* start button-section  */
+.button-section {
+    text-align: center;
+    background-color: #7FFFD4;
+    height: 12rem;
+}
+h3 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: azure;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button:hover {
+    background-color: red;
+    color: #fff;
+}
+/* start footer-section  */
+.footer-section {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    background-color: #7FFFD4;
+}
+ a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0rem 3rem;
+    font-size: 1.5rem;
+}
+li {
+    list-style: none;
+}
+/* Start media  */
+@media only screen and (max-width: 600px){
+    .main-section {
+        display: grid;
+        height: 45rem;
+    }
+}
